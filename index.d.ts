@@ -98,6 +98,12 @@ declare class Sound {
   pause(cb?: () => void): void;
 
   /**
+   *
+   * @param cb Optional callback blabla
+   */
+  playGen(cb?: () => void): void;
+
+  /**
    * Stop playback and set the seek position to 0.
    * @param cb - Optional callback function that gets called when the sound has been stopped.
    */

@@ -290,6 +290,10 @@ Sound.setSpeakerPhone = function(value) {
   }
 };
 
+Sound.playGen = function(callback) {
+  RNSound.playGen(callback);
+};
+
 Sound.MAIN_BUNDLE = RNSound.MainBundlePath;
 Sound.DOCUMENT = RNSound.NSDocumentDirectory;
 Sound.LIBRARY = RNSound.NSLibraryDirectory;
